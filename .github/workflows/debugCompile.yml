@@ -22,8 +22,8 @@ jobs:
           cache: gradle
 
       # Limpa o cache para garantir que todas as dependências sejam atualizadas
-      - name: Clean old Gradle cache
-        run: ./gradlew clean --refresh-dependencies
+     # - name: Clean old Gradle cache
+     #   run: ./gradlew clean --refresh-dependencies
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
