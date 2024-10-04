@@ -2,12 +2,11 @@
 buildscript {
     repositories {
         google()
-        jcenter()
-    } 
+        mavenCentral() // Substitua jcenter por mavenCentral
+    }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.1' // без необходимости гредл не трогай а то copy Library не будеть работать
+        classpath 'com.android.tools.build:gradle:7.3.1'
         classpath 'com.google.gms:google-services:4.3.15'
-        //classpath 'com.google.gms:google-services:4.3.15'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -16,7 +15,7 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral() // Substitua jcenter por mavenCentral
         maven {
             url "https://jitpack.io"
         }
