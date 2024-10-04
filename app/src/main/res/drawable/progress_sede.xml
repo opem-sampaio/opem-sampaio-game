@@ -1,0 +1,114 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background segments -->
+    <item>
+        <layer-list>
+            <item android:left="0dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+            <item android:left="22dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+            <item android:left="44dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+            <item android:left="66dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+            <item android:left="88dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+            <item android:left="110dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+            <item android:left="132dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+            <item android:left="154dp">
+                <shape>
+                    <corners android:radius="5dp" />
+                    <solid android:color="#CCCCCC" />
+                    <size android:width="20dp" android:height="20dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Progress segments -->
+    <item>
+        <clip android:clipOrientation="horizontal" android:gravity="left">
+            <layer-list>
+                <item android:left="0dp">
+                    <shape>
+                        <corners android:radius="5dp" />
+                        <solid android:color="#2196f3" />
+                        <size android:width="20dp" android:height="20dp" />
+                    </shape>
+                </item>
+                <item android:left="22dp">
+                    <shape>
+                        <corners android:radius="5dp" />
+                        <solid android:color="#2196f3" />
+                        <size android:width="20dp" android:height="20dp" />
+                    </shape>
+                </item>
+                <item android:left="44dp">
+                    <shape>
+                        <corners android:radius="5dp" />
+                        <solid android:color="#2196f3" />
+                        <size android:width="20dp" android:height="20dp" />
+                    </shape>
+                </item>
+                <item android:left="66dp">
+                    <shape>
+                        <corners android:radius="5dp" />
+                        <solid android:color="#2196f3" />
+                        <size android:width="20dp" android:height="20dp" />
+                    </shape>
+                </item>
+                <item android:left="88dp">
+                    <shape>
+                        <corners android:radius="5dp" />
+                        <solid android:color="#2196f3" />
+                        <size android:width="20dp" android:height="20dp" />
+                    </shape>
+                </item>
+                <item android:left="110dp">
+                    <shape>
+                        <corners android:radius="5dp" />
+                        <solid android:color="#2196f3" />
+                        <size android:width="20dp" android:height="20dp" />
+                    </shape>
+                </item>
+            </layer-list>
+        </clip>
+    </item>
+</layer-list>

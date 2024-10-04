@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#CC111D24"/> <!-- #B3 é o valor hexadecimal para 70% de opacidade, FF0048 é a cor -->
+    <corners android:radius="10px"/> <!-- Borda arredondada -->
+</shape>

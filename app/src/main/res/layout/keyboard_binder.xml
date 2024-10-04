@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#ff241c2a" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/_43sdp" android:layout_marginStart="@dimen/_15sdp" android:layout_marginEnd="@dimen/_15sdp">
+		<TextView android:textSize="@dimen/_18sdp" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Настройки бинда" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="@font/ttnorms_bold" app:autoSizeTextType="uniform" />
+		<FrameLayout android:id="@id/btn_delete" android:background="@drawable/binder_delete" android:layout_width="@dimen/_70sdp" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_9sdp" android:layout_marginBottom="@dimen/_9sdp" android:layout_marginStart="@dimen/_9sdp">
+			<TextView android:textSize="@dimen/_8sdp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Удалить" android:fontFamily="@font/ttnorms_bold" />
+		</FrameLayout>
+		<FrameLayout android:id="@id/btn_cancel" android:background="@drawable/binder_cancel" android:layout_width="@dimen/_70sdp" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_9sdp" android:layout_marginBottom="@dimen/_9sdp" android:layout_marginStart="@dimen/_9sdp">
+			<TextView android:textSize="@dimen/_8sdp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Отменить" android:fontFamily="@font/ttnorms_bold" />
+		</FrameLayout>
+		<FrameLayout android:id="@id/btn_save" android:background="@drawable/binder_save" android:layout_width="@dimen/_105sdp" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_9sdp" android:layout_marginBottom="@dimen/_9sdp" android:layout_marginStart="@dimen/_9sdp">
+			<TextView android:textSize="@dimen/_8sdp" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Сохранить" android:fontFamily="@font/ttnorms_bold" />
+		</FrameLayout>
+	</LinearLayout>
+	<androidx.recyclerview.widget.RecyclerView android:scrollbarSize="@dimen/_2sdp" android:scrollbarThumbVertical="@drawable/ic_binder_scrollbar_thumb" android:scrollbarTrackVertical="@drawable/ic_binder_scrollbar_track" android:scrollbarStyle="outsideInset" android:id="@id/recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/_9sdp" android:fadeScrollbars="false" android:layout_marginStart="@dimen/_15sdp" android:layout_marginEnd="@dimen/_7sdp" />
+</LinearLayout>

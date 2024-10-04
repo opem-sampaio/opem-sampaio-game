@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Borda -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:width="1dp"
+                android:color="#000000"/> <!-- Cor da borda (preto) -->
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+    <!-- Fundo da ProgressBar -->
+    <item>
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FFFFFF"/> <!-- Cor do progresso (branco) -->
+                <corners android:radius="4dp"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="@dimen/_3sdp" android:layout_width="fill_parent" android:layout_height="@dimen/_34sdp" android:minWidth="@dimen/_165sdp">
+	<ImageView android:id="@id/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/keyboard_btn_bg" />
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/_9sdp" android:layout_marginEnd="@dimen/_4sdp">
+		<ImageView android:layout_gravity="center_vertical" android:id="@id/add_icon" android:visibility="gone" android:layout_width="@dimen/_7sdp" android:layout_height="@dimen/_7sdp" android:layout_marginEnd="@dimen/_4sdp" app:srcCompat="@drawable/ic_keyboard_bind_add" />
+		<TextView android:textSize="@dimen/_9sdp" android:textColor="#4dffffff" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Какой-то бинд" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="@font/ttnorms_medium" android:layout_marginEnd="@dimen/_4sdp" />
+		<FrameLayout android:id="@id/settings" android:background="@drawable/keyboard_btn_settings_bg" android:layout_width="@dimen/_41sdp" android:layout_height="fill_parent" android:layout_marginTop="@dimen/_4sdp" android:layout_marginBottom="@dimen/_4sdp" android:backgroundTint="#ff44394d" android:backgroundTintMode="src_in">
+			<ImageView android:layout_gravity="center" android:layout_width="@dimen/_12sdp" android:layout_height="@dimen/_12sdp" app:srcCompat="@drawable/ic_keyboard_bind_settings" />
+		</FrameLayout>
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/phone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="257dp"
+        android:layout_height="298dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/phoneosnova" />
+
+    <Button
+        android:id="@+id/phoneEsc"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:background="@drawable/cyrcile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.893" />
+
+    <Button
+        android:id="@+id/Taxibtn"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/cyrcile"
+        android:text="Taxi"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.869" />
+
+
+    <Button
+        android:id="@+id/callbtn"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:background="@drawable/cyrcile"
+        android:text="call"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/call1"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/cyrcile"
+        android:text="1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/call2"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/cyrcile"
+        android:text="2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/call3"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/cyrcile"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/call4"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/cyrcile"
+        android:text="4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/call5"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/cyrcile"
+        android:text="5"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/call6"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/cyrcile"
+        android:text="6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/call7"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/cyrcile"
+        android:text="7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/call8"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/cyrcile"
+        android:text="8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/call9"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/cyrcile"
+        android:text="9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/callclear"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:background="@drawable/cyrcile"
+        android:text="clear"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.728" />
+
+
+
+    <Button
+        android:id="@+id/callnumber"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:background="@drawable/cyrcile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.728" />
+
+    <Button
+        android:id="@+id/call0"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:background="@drawable/cyrcile"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.728" />
+
+    <EditText
+        android:id="@+id/numberInput"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="@+id/Taxibtn"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.225"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

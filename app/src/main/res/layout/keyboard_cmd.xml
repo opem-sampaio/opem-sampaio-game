@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="bottom" android:orientation="vertical" android:background="#ff241c2b" android:layout_width="fill_parent" android:layout_height="@dimen/_134sdp" android:layout_marginBottom="@dimen/_4sdp" android:layout_marginStart="@dimen/_2sdp" android:layout_marginEnd="@dimen/_2sdp">
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/tab_recycler" android:layout_width="fill_parent" android:layout_height="@dimen/_23sdp" android:layout_marginStart="@dimen/_1sdp" android:layout_marginEnd="@dimen/_1sdp" />
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical" android:layout_width="@dimen/_47sdp" android:layout_height="fill_parent">
+			<FrameLayout android:id="@id/key_0" android:tag="switch_num" android:padding="@dimen/_3sdp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+				<TextView android:textSize="@dimen/_12sdp" android:textColor="#66ffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123" android:includeFontPadding="false" android:fontFamily="@font/ttnorms_medium" />
+			</FrameLayout>
+			<FrameLayout android:id="@id/key_1" android:tag="switch_cmd" android:padding="@dimen/_3sdp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+				<ImageView android:layout_gravity="center" android:layout_width="@dimen/_19sdp" android:layout_height="@dimen/_19sdp" app:srcCompat="@drawable/ic_keyboard_cmd" />
+			</FrameLayout>
+			<FrameLayout android:id="@id/key_2" android:tag="switch_lang" android:padding="@dimen/_3sdp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+				<TextView android:textSize="@dimen/_12sdp" android:textColor="#66ffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="eng" android:includeFontPadding="false" android:fontFamily="@font/ttnorms_medium" />
+			</FrameLayout>
+		</LinearLayout>
+		<androidx.recyclerview.widget.RecyclerView android:id="@id/cmd_recycler" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.9159664" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/edgar_loagin_kranin"
+	android:background="#ff7e7e7e"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<FrameLayout
+		android:id="@+id/bg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#2196F3"
+		android:gravity="right|bottom"
+		android:orientation="vertical">
+		<VideoView
+			android:id="@+id/videoView1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:gravity="right|bottom"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="right|center_vertical"
+				android:orientation="horizontal"
+				android:background="@drawable/teste">
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="20dp"
+					android:paddingRight="20dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="Carregando"
+					android:textSize="12sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF" />
+				<ProgressBar
+					android:id="@+id/progressbar1"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:indeterminate="true"
+					style="?android:progressBarStyle"
+					android:layout_gravity="center_horizontal|center_vertical" />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>

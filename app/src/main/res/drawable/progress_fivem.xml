@@ -1,0 +1,19 @@
+<!-- custom_progress_bar_vertical.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Parte não preenchida (completamente transparente) -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" /> <!-- Cor completamente transparente -->
+            <corners android:radius="10px" /> <!-- Cantos arredondados, ajuste conforme necessário -->
+        </shape>
+    </item>
+    <!-- Parte preenchida (branquiçada e um pouco transparente) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#E91E63" /> <!-- Cor branquiçada com transparência -->
+                <corners android:radius="10px" /> <!-- Cantos arredondados, ajuste conforme necessário -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>

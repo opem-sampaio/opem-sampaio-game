@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="@dimen/_3sdp" android:layout_width="wrap_content" android:layout_height="@dimen/_32sdp">
+	<FrameLayout android:id="@id/bg" android:background="@drawable/keyboard_hint_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:backgroundTintMode="src_in">
+		<TextView android:textSize="@dimen/_9sdp" android:textColor="#ffb2a7bb" android:gravity="center" android:layout_gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/menushka" android:fontFamily="@font/ttnorms_medium" android:layout_marginStart="@dimen/_11sdp" android:layout_marginEnd="@dimen/_11sdp" />
+	</FrameLayout>
+</FrameLayout>
