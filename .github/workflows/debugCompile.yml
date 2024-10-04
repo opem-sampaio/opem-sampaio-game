@@ -21,16 +21,22 @@ jobs:
           distribution: 'adopt'
           cache: gradle
 
+      # Limpa o cache para garantir que todas as dependências sejam atualizadas
+      - name: Clean old Gradle cache
+        run: ./gradlew clean --refresh-dependencies
+
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@v1
-      
-      - name: Build with Gradle
-        id: gradle_build_debug
-        run: ./gradlew assembleDebug
 
+      # Construção com Gradle, baixando todas as dependências necessárias
+      - name: Build with Gradle and download dependencies
+        id: gradle_build_debug
+        run: ./gradlew assembleDebug --refresh-dependencies
+
+      # Upload do APK para file.io
       - name: Upload APK to file.io
         id: upload_apk
         run: |
