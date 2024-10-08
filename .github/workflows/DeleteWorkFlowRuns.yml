@@ -1,28 +1,27 @@
-name: Delete old workflow runs
+name: Cleanup Repository
 
 on:
-  workflow_dispatch:
-    inputs:
-      days:
-        description: 'Number of retains days.'
-        required: true
-        default: '0'
-      minimum_runs:
-        description: 'The minimum runs to keep for each workflow.'
-        required: true
-        default: '0'
-  schedule:
-    - cron: '0 * * * *'  # Roda a cada hora
+  push:
+    paths:
+      - workfile # Altere para o nome do seu arquivo específico
 
 jobs:
-  deleteWorkflowRuns:
-    name: Delete old workflow runs
+  cleanup:
     runs-on: ubuntu-latest
     steps:
-      - name: Delete workflow runs
-        uses: Mattraks/delete-workflow-runs@v2.0.6
-        with:
-          token: ${{ secrets.TOKEN }}
-          repository: ${{ secrets.REPOSITORY }}
-          retain_days: ${{ github.event.inputs.days }}
-          keep_minimum_runs: ${{ github.event.inputs.minimum_runs }}
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Remove all files except .github
+        run: |
+          find . -mindepth 1 -not -path './.github*' -exec rm -rf {} +
+          echo "Todos os arquivos, exceto .github, foram removidos."
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add .
+          git commit -m "Cleanup: Removed all files except .github" || echo "Nada para commitar"
+          git push
+          
